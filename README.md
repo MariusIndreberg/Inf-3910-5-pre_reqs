@@ -4,9 +4,9 @@ A step-by-step guide to install all frameworks, libraries etc needed for the inf
 Guide is made under the assumption that the VS Code editor is used.
 
 # Ubuntu 18.04
-    Markup: 1. Install stuff
-            1. Install Markup: [Mono](https://www.mono-project.com/download/stable/) 
-            2. Install Markup: [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
+        1. Install Stuff
+            1. Install  [Mono](https://www.mono-project.com/download/stable/) 
+            2. Install  [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
             3. Install FAKE as global tool (dotnet tool install fake-cli -g)
             4. Install Paket as global tool (dotnet tool install paket -g)
             5. Install Markup: [Node.js (>= 8.0)](https://github.com/nodesource/distributions/blob/master/README.md)
