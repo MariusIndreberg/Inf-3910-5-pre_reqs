@@ -5,12 +5,12 @@ Guide is made under the assumption that the VS Code editor is used.
 
 # Ubuntu 18.04
     Markup: 1. Install stuff
-            1. Install [Mono](https://www.mono-project.com/download/stable/) 
-            2. Install [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
+            1. Install Markup: [Mono](https://www.mono-project.com/download/stable/) 
+            2. Install Markup: [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
             3. Install FAKE as global tool (dotnet tool install fake-cli -g)
             4. Install Paket as global tool (dotnet tool install paket -g)
-            5. Install [Node.js (>= 8.0)](https://github.com/nodesource/distributions/blob/master/README.md)
-            6. Install [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#debian-stable) 
+            5. Install Markup: [Node.js (>= 8.0)](https://github.com/nodesource/distributions/blob/master/README.md)
+            6. Install Markup: [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#debian-stable) 
             7. Install the Ionide extension in Visual Studio Code
         2. Test if it works.
             1. Write dotnet new -i SAFE.Template to install dotnet SAFE template.
@@ -20,12 +20,12 @@ Guide is made under the assumption that the VS Code editor is used.
 
 # MacOs
     Markup: 1. Install stuff
-                1. Install [Mono](https://www.mono-project.com/download/stable/) 
-                2. Install [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
+                1. Install Markup: [Mono](https://www.mono-project.com/download/stable/) 
+                2. Install Markup: [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
                 3. Install FAKE as global tool (dotnet tool install fake-cli -g)
                 4. Install Paket as global tool (dotnet tool install paket -g)
-                5. Install [Node.js (>= 8.0)](https://github.com/nodesource/distributions/blob/master/README.md)
-                6. Install [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#debian-stable) 
+                5. Install Markup: [Node.js (>= 8.0)](https://github.com/nodesource/distributions/blob/master/README.md)
+                6. Install Markup: [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#debian-stable) 
                 7. Install the Ionide extension in Visual Studio Code
             2. Test if it works.
                 1. Write `dotnet new -i SAFE.Template` to install dotnet SAFE template.
