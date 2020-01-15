@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marius/Documents/inf-3910-5/Col1/inf-3910-5.fsproj": {}
+  },
+  "projects": {
+    "/home/marius/Documents/inf-3910-5/Col1/inf-3910-5.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marius/Documents/inf-3910-5/Col1/inf-3910-5.fsproj",
+        "projectName": "inf-3910-5",
+        "projectPath": "/home/marius/Documents/inf-3910-5/Col1/inf-3910-5.fsproj",
+        "packagesPath": "/home/marius/.nuget/packages/",
+        "outputPath": "/home/marius/Documents/inf-3910-5/Col1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/marius/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
