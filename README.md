@@ -5,36 +5,41 @@ Guide is made under the assumption that the VS Code editor is used.
 
 
 1. Install Stuff!
-
     1. Ubuntu 18.04
         1. Install [Mono](https://www.mono-project.com/download/stable/) 
-        2. Install [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
+        2. Install [Dotnet Core 3.x SDK](https://dotnet.microsoft.com/download)
         3. Install FAKE as global tool. (Type `dotnet tool install fake-cli -g` in your terminal)
         4. Install Paket as global tool. (type `dotnet tool install paket -g` in your terminal)
         5. Install [Node.js (>= 8.0)](https://github.com/nodesource/distributions/blob/master/README.md)
         6. Install [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#debian-stable) 
         7. Install the Ionide extension in Visual Studio Code
 
-
     2. MacOs 
         1. Install [Mono](https://www.mono-project.com/download/stable/) 
-        2. Install [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
+        2. Install [Dotnet Core 3.x SDK](https://dotnet.microsoft.com/download)
         3. Install FAKE as global tool. (Type `dotnet tool install fake-cli -g` in your terminal)
         4. Install Paket as global tool. (type `dotnet tool install paket -g` in your terminal)
         5. Install  [Node.js (>= 8.0)](https://nodejs.org/en/download/)
         6. Install  [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#mac-stable) 
         7. Install the Ionide extension in Visual Studio Code
+
     3. Windows 
-        1. Install [Dotnet Core 3.0 SDK](https://dotnet.microsoft.com/download)
-        2. Install FAKE as global tool. (Type `dotnet tool install fake-cli -g` in your terminal)
-        3. Install Paket as global tool. (type `dotnet tool install paket -g` in your terminal)
+        1. Install [Dotnet Core 3.x SDK](https://dotnet.microsoft.com/download)
+        2. Install FAKE as global tool. (Type `dotnet tool install fake-cli -g` in your .NetCore CLI)
+        3. Install Paket as global tool. (type `dotnet tool install paket -g` in your .NetCore CLI)
         4. Install  [Node.js (>= 8.0)](https://nodejs.org/en/download/)
         5. Install  [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#mac-stable) 
         6. Install the Ionide extension in Visual Studio Code
 
+2. Test if stuff works.
+    1. If F# works:
+        1. `dotnet new console -lang F# -o (insert path you want your new to be generated at)`
+        2. Type `dotnet run` in your terminal when in the project directory.
+        3. If it returns `Hello world from F#` it works!
+
+    2. If SAFE Template works:
+        1. Write `dotnet new -i SAFE.Template` to install dotnet SAFE template.
+        2. Write `dotnet new SAFE --s giraffe` to create a new SAFE project.
+        3. Write `fake build -t run` to test default SAFE App.
 
 
-2. Test if it works.
-    1. Write `dotnet new -i SAFE.Template` to install dotnet SAFE template.
-    2. Write `dotnet new SAFE --s giraffe` to create a new SAFE project.
-    3. Write `fake build -t run` to test default SAFE App.
