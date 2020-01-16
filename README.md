@@ -28,7 +28,7 @@ Guide is made under the assumption that the VS Code editor is used.
         2. Install FAKE as global tool. (Type `dotnet tool install fake-cli -g` in your .NetCore CLI)
         3. Install Paket as global tool. (type `dotnet tool install paket -g` in your .NetCore CLI)
         4. Install  [Node.js (>= 8.0)](https://nodejs.org/en/download/)
-        5. Install  [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#mac-stable) 
+        5. Install  [Yarn (>= 1.10.1)](https://yarnpkg.com/lang/en/docs/install/#windows-stable) 
         6. Install the Ionide extension in Visual Studio Code
 
 2. Test if stuff works.
