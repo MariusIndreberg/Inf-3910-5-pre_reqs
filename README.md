@@ -33,13 +33,13 @@ Guide is made under the assumption that the VS Code editor is used.
 
 2. Test if stuff works.
     1. If F# works:
-        1. `dotnet new console -lang F# -o (insert path you want your new to be generated at)`
+        1. `dotnet new console -lang F# -o (insert path you want your new project to be generated at)`
         2. Type `dotnet run` in your terminal when in the project directory.
         3. If it returns `Hello world from F#` it works!
 
     2. If SAFE Template works:
         1. Write `dotnet new -i SAFE.Template` to install dotnet SAFE template.
-        2. Write `dotnet new SAFE --s giraffe` to create a new SAFE project.
+        2. Write `dotnet new SAFE -s giraffe` to create a new SAFE project.
         3. Write `fake build -t run` to test default SAFE App.
 
 
